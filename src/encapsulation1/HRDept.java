@@ -12,7 +12,7 @@ package encapsulation1;
 public class HRDept {
     private Employee employee;
     
-    public void orientInfo(String FirstName, String LastName, String ssn) {
+    public void hiredEmployee(String FirstName, String LastName, String ssn) {
         Employee e = new Employee();
         e.getFirstName();
         e.getLastName();

@@ -16,7 +16,7 @@ public class Encapsulation1 {
      */
     public static void main(String[] args) {
         HRDept HR = new HRDept();
-        HR.orientInfo("Jake", "Jones", "265-49-359");
+        HR.hiredEmployee("Jake", "Jones", "265-49-359");
 
         System.out.println("The employee's status is: " + HR.getEmployeeStatus());
     }
